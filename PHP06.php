@@ -1,11 +1,11 @@
 <?php
 
-function double(){
-    $a=10;
+function double($a){
     $a=$a*2;
     return $a;
 }
-echo double();
+$x = 10;
+echo double($x);
 echo "\n";
 
 
